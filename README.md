@@ -1,1 +1,0 @@
-# Aj-s-kart-frontend
