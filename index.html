@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aj's Kart - Online Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="container">
+    
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="logo">Aj's <span>Kart</span></div>
+      
+      <div class="search-box">
+        <input type="text" id="txtSearch" placeholder="🔍 Search Products..." />
+      </div>
+      
+      <h3>Category</h3>
+      <ul class="category-list">
+        <!-- Categories dynamically injected here -->
+      </ul>
+      
+      <h3>Price Range</h3>
+      <div class="price-filter">
+        <input type="range" id="priceRange" min="0" max="5000" step="100" />
+        <div>Up to ₹ <span class="priceValue">500</span></div>
+      </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="content">
+      <h2>Featured Products</h2>
+      <div class="products">
+        <!-- Product Cards dynamically injected here -->
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
